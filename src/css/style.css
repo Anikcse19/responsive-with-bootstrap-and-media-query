@@ -1,0 +1,320 @@
+/* Google font  */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik&family=Sniglet&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+header, section{
+    overflow-x: hidden;
+}
+
+:root{
+    --single-font:"Sniglet", cursive;
+    --rubik:"Rubik", cursive;
+    --lobster:"Lobster", cursive;
+    --patua:"Patua One", cursive;
+    --light-black: #2e2c2caf;
+    --bg-gradient:linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray:rgba(255,255,255,0.7);
+}
+
+
+/* header part style ----------------- */
+header a{
+    font-family: var(--single-font);
+    font-size: 1.2em;
+    color: whitesmoke;
+}
+header .nav-item a{
+    color: whitesmoke;
+}
+header{
+    /* background: #dd2476; */
+    background: var(--bg-gradient);
+    overflow-x: hidden;
+}
+header nav{
+    background-color: rgba(0,0,0,0.3);
+}
+header .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0);
+    z-index: 1;
+}
+.dropdown .dropdown-content a{
+    display: block;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+}.dropdown:hover .dropdown-content{
+    display: block;
+}
+header .nav-item:last-child{
+    padding-right: 100px;
+}
+header .nav-item{
+    padding: 10px;
+}
+header .navbar-brand{
+    padding-left: 160px;
+}
+header .nav-link:hover{
+    color: black;
+}
+.row .col-md-7{
+    padding-top: 200px;
+    color: white;
+}
+.row .col-md-7 h6,h1{
+    font-family: var(--patua);
+    letter-spacing: 5px;
+}
+.row .col-md-7 h1{
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.row .col-md-7 p{
+    font-family: var(--rubik);
+    padding: 10px;
+}
+.row .col-md-7 button{
+    background: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.row .col-md-5{
+    padding-top: 60px;
+}
+.row .col-md-5 img{
+    width: 90%;
+}
+/* end header style ---------- */
+main{
+    overflow-x: hidden;
+}
+
+/* intro banner style ========== */
+.intro-banner{
+    padding: 50px 0px;
+}
+.intro-banner .row .col-md-6 img{
+    width: 80%;
+    height: 80vh;
+    opacity: 0.8;
+}
+.intro-banner .row .col-md-6{
+    position: relative;
+}
+.intro-banner .row .col-md-6 .pannel{
+    position: absolute;
+    top: 60px;
+    left: -120px;
+    text-align: left;
+    background-color: white;
+    padding: 40px 20px 10px 50px;
+    box-shadow: 5px 10px 20px 5px rgba(0,0,0,0.3);
+    font-family: var(--patua);
+    z-index: 1;
+}
+.intro-banner .row .col-md-6 .pannel h1{
+    font-weight: bolder;
+    font-family: var(--lobster);
+}
+.intro-banner .row .col-md-6 .pannel p{
+    color: gray;
+}
+
+/* End intro banner style ========== */
+
+
+/* features section style ======= */
+.cover{
+    width: 100%;
+    height: 55vh;
+    margin-top: 3%;
+    background-image: url(/assets/pexels-photo-452738.jpeg);
+    background-position: -20rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+.cover .content{
+    background-color: rgba(0,0,0,0.3);
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+}
+.cover .content h1{
+    color: white;
+    font-weight: bolder;
+    font-family: var(--single-font);
+}
+.cover .content p{
+    color: whitesmoke;
+    font-family: var(--rubik);
+}
+.numbers .rec{
+    background-color: white;
+    width: 272px;
+    height:192px;
+    box-shadow: 2px 5px 50px 0px rgba(255,0,0,0.3);
+    padding-top: 50px;
+    margin: 16px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+.numbers{
+    margin-top: -100px;
+}
+.numbers .rec h1{
+    font-weight: bold;
+    font-size: 4rem;
+    color: tomato;
+}
+.numbers .rec p{
+    font-weight: bold;
+    font-family: var(--lobster);
+}
+.purchase h1{
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-family: var(--lobster);
+}
+.purchase p{
+    color: var(--light-black);
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.cards .card{
+    width: 392px;
+    margin: 10px;
+}
+.cards{
+    padding: 0;
+    margin: 0;
+}
+.cards .title{
+    background-color: rgba(208,240,241,0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+}
+.cards .card-text{
+    padding: 40px 48px;
+    color: var(--light-black);
+}
+.cards .card-body .pricing{
+    background-color: rgba(208,240,241,0.5);
+    padding-bottom: 40px;
+    color: purple;
+    border-top-left-radius: 170px;
+    border-top-right-radius: 170px;
+}
+.cards .card-body .pricing button{
+    margin-top: 40px;
+}
+
+/* End features section style ======= */
+
+/* download section style  */
+.download-section{
+    background: var(--bg-gradient);
+    height: 60vh;
+    margin-top: 4rem;
+}
+.download-section h1{
+    padding-top: 100px;
+    color: whitesmoke;
+    font-size: 2.2rem;
+}
+.download-section .row .col-md-12 p{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: var(--light-gray);
+    font-size: 1.3rem;
+}
+.download-section .row .col-md-6 .desktop{
+    background-color: white;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 5px 15px;
+    margin: 10px;
+}
+.download-section .row .col-md-6 .mobile{
+    background-color: white;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 5px 30px;
+    margin: 10px;
+}
+/* End download section style  */
+
+/* feedback section style  */
+.feedback-section h1{
+    font-size: 2.3rem;
+    padding-top: 40px;
+}
+.feedback-section .team{
+    padding: 10vmin 4vmin;
+}
+.feedback-section .card{
+    width: 20rem;
+    margin-top: 10vmin;
+}
+.feedback-section .card .card-text{
+    padding: 0.4rem;
+}
+.feedback-section .card .card-body>a{
+    font-size: 1.7rem;
+    color: blue!important;
+}
+.feedback-section .carousel-item{
+    padding-left: 2.5rem;
+}
+.border-radius{
+    border-radius: 340px;
+    width: 60%;
+}
+
+
+/* End feedback section style  */
+
+/* footer style  */
+footer{
+    background-color: rgba(0,0,0,0.9);
+    overflow-x: hidden;
+    padding: 10px 50px;
+}
+footer input{
+    border: none !important;
+    padding: 5px;
+}
+footer .col-md-5 i{
+    background: var(--bg-gradient);
+}
+footer .col-md-2{
+    padding-top: 50px;
+}
+footer .col-md-2 .insta{
+    color: tomato
+}
+footer .col-md-2 .linkedin{
+    color: red
+}
+footer .col-md-2 .whtsapp{
+    color: lightgreen
+}
+
+/* End footer style  */

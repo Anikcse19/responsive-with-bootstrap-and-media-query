@@ -1,0 +1,100 @@
+@media only screen and (max-width:1024px){
+    .feedback-section .carousel-inner{
+        width: 24rem;
+        margin-left: -49px;
+    }
+
+}
+@media only screen and (max-width:1440px){
+    .download-section{
+        height: inherit;
+    }
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+    header .navbar-brand{
+        padding-left: 1rem;
+    }
+    header .row .col-md-7{
+        padding-bottom: 20px;
+    }
+    header .row .col-md-5 img{
+        padding-top: 40%;
+    }
+
+    .intro-banner .row .col-md-6 .pannel{
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+    .download-section{
+        height: inherit;
+    }
+    .download-section .row .col-md-12 h1{
+        padding: 6vmin 5vmin;
+    }
+    .download-section .col-md-6{
+        text-align: center !important;
+    }
+    .download-section .desktop i{
+        font-size: 1.9rem;
+    }
+    .download-section .mobile i{
+        font-size: 1.9rem;
+    }
+    .feedback-section .team{
+        font-display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .feedback-section .carousel-inner{
+        width: 24rem;
+        margin-left: -50px;
+    }
+    footer .col-md-2 i{
+        margin: 5px;
+    }
+}
+@media only screen and (max-width:425px) {
+    header .row .col-md-5 img{
+        padding-top: 10%;
+    }
+    intro-banner .row .col-md-6 .pannel{
+        position: initial;
+        width: 400px;
+        height: initial;
+        margin-top: 100px;
+    }
+    .features .numbers{
+        margin-top: -40px;
+    }
+    .feedback-section .carousel-inner{
+        width: 24rem;
+        margin-left: -18px;
+    }
+}
+@media only screen and (max-width:375px) {
+    .feedback-section .carousel-inner{
+        width: 24rem;
+        margin-left: -35px;
+    }
+}
+    
+@media only screen and (max-width:320px) {
+    .cover{
+        background-position: -24rem -23rem;
+    }
+    .feedback-section 
+    .card{
+        width: 300px;
+        margin-left: -3px;
+    }
+    .feedback-section .carousel-inner{
+        width: 24rem;
+        margin-left: -63px;
+    }
+}
+
